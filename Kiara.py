@@ -24,7 +24,7 @@ try:
             return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
 
-        genai.configure(api_key="AIzaSyAm_r0GQ6GdUqZvAOHCgSB15jLgl6yjT84")
+        genai.configure(api_key="REPLACE WITH YOUR OWN API KEY")
 
         model = genai.GenerativeModel('gemini-pro')
 
