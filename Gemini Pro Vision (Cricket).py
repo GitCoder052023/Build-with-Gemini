@@ -18,7 +18,7 @@ def to_markdown(text):
     text = text.replace('•', '  *')
     return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
-genai.configure(api_key="AIzaSyAm_r0GQ6GdUqZvAOHCgSB15jLgl6yjT84")
+genai.configure(api_key="REPLACE WITH YOUR OWN API KEY")
 model = genai.GenerativeModel('gemini-pro-vision')
 
 # Local video file path
@@ -36,7 +36,7 @@ while True:
 
     # Save the frame as a JPEG image
     frame_name = f"frame_{cap.get(cv2.CAP_PROP_POS_FRAMES)}.jpg"
-    frame_path_full = pathlib.Path('C:/Users/Hamdan/PycharmProjects/Gemini/Frames') / frame_name
+    frame_path_full = pathlib.Path('C:/Users/Hamdan/PycharmProjects/Gemini/Frames') / frame_name #REPLACE FOLDER PATH WITH YOUR OWN PATH
     cv2.imwrite(str(frame_path_full), frame)
 
     # Load the saved image
