@@ -209,18 +209,18 @@ The purpose of this script is to generate content based on user input. This can 
 
 Dependencies:
 
-The script uses the following libraries:
+The script utilizes the following libraries:
 
-- `textwrap`: For formatting text
+- `textwrap`: for text formatting
 - `google.generativeai`: Google's Generative AI library
-- `IPython.display`: For displaying Markdown and images in Jupyter notebooks
-- `PIL.Image`: For handling images
-- `pyttsx3`: A text-to-speech conversion library
-- `OpenCV`: For video handling
+- `IPython.display`: for displaying Markdown and images in Jupyter notebooks
+- `PIL.Image`: for handling images
+- `pyttsx3`: a text-to-speech conversion library
+  `OpenCV`: for video handling
 
 Description:
 
-This Python script is combination of all the files, it uses all previous file which is (Gemini Pro Vision (Video Processing), Gemini Pro Vision, Gemini Pro chat, Gemini Pro), and then creates a interactive chatbot with 6 models which is:
+Kiara is a ChatBot that seamlessly integrates various files, consolidating all preceding components (Gemini Pro Vision (Video Processing), Gemini Pro Vision, Gemini Pro chat, Gemini Pro). The result is an advanced interactive chatbot featuring six specialized models, each serving a unique purpose:
 
 - Kiara TLDR: A text model
 - Kiara VITA: A text + vision model(IMG)
@@ -229,7 +229,7 @@ This Python script is combination of all the files, it uses all previous file wh
 - Kiara VIVA (V): Voice + Vision Model(VID)
 - Kiara VITA (V): Text + Vision Model(VID)
 
-And each model has specific role and purpose, wich allows user to use our different models in one chatbot. And increase the versatility of chatbot and makes it easy to use for users.
+Each model is meticulously crafted to fulfill specific roles, enhancing the chatbot's versatility and user-friendliness. This integration enables users to seamlessly leverage various functionalities within a unified chatbot environment.
 
 How it Works:
 
