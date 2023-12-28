@@ -1,6 +1,6 @@
 # Project Gemini
 # Introduction
-Gemni contains a collection of Python scripts designed for various AI-powered tasks, including text-to-speech conversion, chat interaction, image and video processing, and content generation using Google's Gemini models. 
+Gemini contains a collection of Python scripts designed for various AI-powered tasks, including text-to-speech conversion, chat interaction, image and video processing, and content generation using Google's Gemini models. 
 The scripts uses Google's Gemini-pro and Gemini-pro-vision models to perform AI powered tasks like chatting, generation of content, image recognition, video recognition.
 And Gemini also gives an ideas of AI projects using Google's Gemini models for students 
 
