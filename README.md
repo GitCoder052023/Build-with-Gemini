@@ -207,15 +207,6 @@ The purpose of this script is to generate content based on user input. This can 
 
 # Kiara.py
 
-Overview:
-
-This Python script is a demonstration of how to use different models from Google's Generative AI library. The script provides an interactive interface where the user can choose a model and then chat with it. The models available are:
-
-- Kiara TLDR: A text model
-- Kiara VITA: A text + vision model
-- Kiara VLDR: A voice model
-- Kiara VIVA: A voice + vision model
-
 Dependencies:
 
 The script uses the following libraries:
@@ -225,6 +216,20 @@ The script uses the following libraries:
 - `IPython.display`: For displaying Markdown and images in Jupyter notebooks
 - `PIL.Image`: For handling images
 - `pyttsx3`: A text-to-speech conversion library
+- import cv2: For video handling
+
+Description:
+
+This Python script is combination of all the files, it uses all previous file which is (Gemini Pro Vision (Video Processing), Gemini Pro Vision, Gemini Pro chat, Gemini Pro), and then creates a interactive chatbot with 6 models which is:
+
+- Kiara TLDR: A text model
+- Kiara VITA: A text + vision model(IMG)
+- Kiara VLDR: A voice model
+- Kiara VIVA: A voice + vision model
+- Kiara VIVA (V): Voice + Vision Model(VID)
+- Kiara VITA (V): Text + Vision Model(VID)
+
+And each model has specific role and purpose, wich allows user to use our different models in one chatbot. And increase the versatility of chatbot and makes it easy to use for users.
 
 How it Works:
 
