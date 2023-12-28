@@ -216,7 +216,7 @@ The script uses the following libraries:
 - `IPython.display`: For displaying Markdown and images in Jupyter notebooks
 - `PIL.Image`: For handling images
 - `pyttsx3`: A text-to-speech conversion library
-- import cv2: For video handling
+- `OpenCV`: For video handling
 
 Description:
 
