@@ -38,26 +38,18 @@ PIL.Image
 cv2
 pyttsx3
 
+Now, to install the required modules, you can use this following pip command in your terminal or command prompt:
+```bash
+pip install google-generativeai pyttsx3 opencv-python
+```
+
 You will also need to configure the Google Generative AI models with your API key. And you will will need to install "Python 3.10" to use Gemini.
 
 # follow these steps to clone Gemini:
 
-# Clone the repository
+To clone gemini you can use this pip command:
 ```bash
-git clone https://github.com/GitCoder052023/Gemini.git
-```
-
-# Navigate to the project directory
-```bash
-cd Gemini
-```
-
-# Install the dependencies
-```bash
-npm install Gemini
-```
-
-# Start the application
-```bash
-npm start Gemini
+git clone https://github.com/GitCoder052023/Build-with-Gemini  # clone
+cd Build-with-Gemini
+pip install -r requirements.txt  # install
 ```
